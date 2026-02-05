@@ -1,4 +1,4 @@
-export const flores = [
+const flores = [
   {
     id: 1,
     nome: "Rosa Vermelha",
@@ -110,3 +110,5 @@ export const flores = [
 ];
 
 console.table(flores);
+
+export default { flores };
